@@ -1,0 +1,1 @@
+C:\Users\User\Desktop\Tetris Proj\MyTetrisProj\MyTetrisProj\MyTetrisProj.UWP\MyTetrisProj.UWP.csproj;x86

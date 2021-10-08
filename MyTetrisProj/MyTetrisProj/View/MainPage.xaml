@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyTetrisProj.MainPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="Black"
+             xmlns:conv="clr-namespace:MyTetrisProj.Converters;assembly=MyTetrisProj" xmlns:ext="clr-namespace:MyTetrisProj;assembly=MyTetrisProj"
+             >
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <conv:BoolToColorConverter x:Key="boolConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <StackLayout 
+        >
+            <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+                <!-- top controls -->
+                <Label  Text="Tetris-Proj" TextColor="White" FontSize="Title" FontFamily="Pixel"  HorizontalOptions="CenterAndExpand"   />
+            </StackLayout>
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <!-- middle controls -->
+            </StackLayout>
+            <StackLayout  VerticalOptions="End">
+                <!-- bottom controls -->
+                <Button Text="Settings" FontFamily="Pixel" TextColor="LightYellow"  FontSize="24" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" BackgroundColor="Transparent" Clicked="Setting"/>
+                <Button x:Name="EMH" Text="Ez" FontFamily="Pixel" TextColor="Green"  FontSize="24" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Clicked="change_compli" BackgroundColor="Transparent" />
+                <Button Text="Start" FontFamily="Pixel" TextColor="GreenYellow"  FontSize="30"   BackgroundColor="White" Clicked="Starto"/>
+                
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
