@@ -13,13 +13,12 @@ namespace MyTetrisProj.ViewModels
         private Color cellColor;
         private Color gray;
 
-        public BoardCellModel(StPage model, Color cellColor)
+        public BoardCellModel( Color cellColor)
         {
-            this.model = model;
             this.cellColor = cellColor;
         }
 
-       
+
 
         public Color CellColor
         {

@@ -17,25 +17,27 @@ namespace MyTetrisProj.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class StPage : ContentPage
     {
-        private IList<BoardCellModel> board;
         public StPage()
         {
+
             InitializeComponent();
-
             Debug.WriteLine("==============================> TetrisViewModel c'tor");
-
-            // initialize view model data repository
-            this.board = new List<BoardCellModel>();
-            for (int row = 0; row < 19; row++)
+            Cup();
+        }
+        
+        //создание игрового поля (кружки)
+        public void Cup()
+        {
+            IList<BoardCellModel> board = new List<BoardCellModel>();
+            for (int row = 0; row < 20; row++)
             {
                 for (int col = 0; col < 10; col++)
                 {
-                    BoardCellModel cell = new BoardCellModel(this, Color.Gray);
-                    this.board.Add(cell);
+                    BoardCellModel cell = new BoardCellModel(Color.Gray);
+                    board.Add(cell);
                 }
             }
-
-            for (int i = 0; i < 19; i++)
+            for (int i = 0; i < 20; i++)
             {
                 for (int j = 0; j < 10; j++)
                 {
@@ -46,13 +48,10 @@ namespace MyTetrisProj.View
                     boxView.SetBinding(
                         BoxView.BackgroundColorProperty,
                         new Binding("CellColor"));
-                    this.TetrisGrid.Children.Add(boxView, j, i);
-
+                    TetrisGrid.Children.Add(boxView, j, i);
                 }
             }
-            }
-
-
+        }
 
         protected override bool OnBackButtonPressed()
         {

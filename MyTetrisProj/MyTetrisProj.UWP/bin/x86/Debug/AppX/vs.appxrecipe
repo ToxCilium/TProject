@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\User\Desktop\Tetris Proj\MyTetrisProj\MyTetrisProj\MyTetrisProj.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-08T09:54:26.088</Modified>
+      <Modified>2021-10-09T08:39:23.075</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Tetris Proj\MyTetrisProj\MyTetrisProj\MyTetrisProj.UWP\bin\x86\Debug\MyTetrisProj.UWP.exe">
       <PackagePath>entrypoint\MyTetrisProj.UWP.exe</PackagePath>
-      <Modified>2021-10-08T09:54:24.405</Modified>
+      <Modified>2021-10-09T08:39:22.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\commonservicelocator\2.0.6\lib\netstandard2.0\CommonServiceLocator.dll">
       <PackagePath>CommonServiceLocator.dll</PackagePath>
@@ -88,7 +88,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Tetris Proj\MyTetrisProj\MyTetrisProj\MyTetrisProj\bin\Debug\netstandard2.0\MyTetrisProj.dll">
       <PackagePath>MyTetrisProj.dll</PackagePath>
-      <Modified>2021-10-08T10:33:30.581</Modified>
+      <Modified>2021-10-09T08:39:16.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -247,11 +247,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Tetris Proj\MyTetrisProj\MyTetrisProj\MyTetrisProj.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-10-08T09:54:24.314</Modified>
+      <Modified>2021-10-09T08:39:22.042</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Tetris Proj\MyTetrisProj\MyTetrisProj\MyTetrisProj.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-10-08T09:54:24.314</Modified>
+      <Modified>2021-10-09T08:39:22.042</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -271,7 +271,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Tetris Proj\MyTetrisProj\MyTetrisProj\MyTetrisProj.UWP\bin\x86\Debug\Core\MyTetrisProj.UWP.exe">
       <PackagePath>MyTetrisProj.UWP.exe</PackagePath>
-      <Modified>2021-10-08T09:54:26.080</Modified>
+      <Modified>2021-10-09T08:39:23.071</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
